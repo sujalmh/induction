@@ -20,7 +20,7 @@ except KeyError:
 # --- In-memory "database" for simplicity ---
 # In a real-world application, use a proper database.
 app_data = {
-    "admin_password_hash": generate_password_hash("admin123"), # Default admin password
+    "admin_password_hash": generate_password_hash("mnbvcx12"), # Default admin password
     "challenge_password_hash": generate_password_hash("challenge123"), # Default challenge password
     "secret_key": "SECRET_KEY_IS_SAFE" # Default secret
 }
