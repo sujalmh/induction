@@ -3,10 +3,6 @@ from flask import Flask, request, jsonify, render_template, send_from_directory
 from werkzeug.security import generate_password_hash, check_password_hash
 import google.generativeai as genai
 from google.api_core import exceptions as google_exceptions # MODIFIED: Import specific exceptions
-from dotenv import load_dotenv
-
-# Load environment variables from a .env file
-load_dotenv()
 
 # Initialize Flask App
 app = Flask(__name__, template_folder='templates', static_folder='static')
