@@ -1,10 +1,10 @@
-click==7.1.2
-Flask==2.3.3
+click
+Flask
 gunicorn>=21.2.0
 google-generativeai
-itsdangerous==1.1.0
-Jinja2==2.11.3
-MarkupSafe==1.1.1
+itsdangerous
+Jinja2
+MarkupSafe
 python-dotenv
-Werkzeug>=2.3.7
-gevent>=23.9.0
+Werkzeug
+gevent
